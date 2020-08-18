@@ -117,7 +117,7 @@ For example, the script that we use on a AWS EC2 with Ubuntu OS is as follows
 export MOE_CC_PATH=/usr/bin/gcc
 export MOE_CXX_PATH=/usr/bin/g++
 
-export MOE_CMAKE_OPTS="-D MOE_PYTHON_INCLUDE_DIR=/usr/include/python3.6m -D MOE_PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0"
+export MOE_CMAKE_OPTS="-D MOE_PYTHON_INCLUDE_DIR=/usr/include/python3.5m -D MOE_PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.5m.so.1.0"
 ```
 
 #### step 4, finish the installment in the virtualenv.
